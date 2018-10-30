@@ -15,18 +15,21 @@
 <!-- include starterwarefree -->
 <project
     name="starterwarefree.git"
+    path="starterwarefree"
     revision="master"
     remote="mokshasoft"/>
 
 <!-- include starterwarefree-idris-ffi -->
 <project
     name="starterwarefree-idris-ffi.git"
+    path="starterwarefree-idris-ffi"
     revision="master"
     remote="mokshasoft"/>
 
 <!-- include Idris RTS, using the one for seL4 -->
 <project
     name="libsel4-idris-rts.git"
+    path="libsel4-idris-rts"
     revision="master"
     remote="mokshasoft">
     <linkfile src="rts/seL4/CMakeLists.txt" dest="libsel4-idris-rts/CMakeLists.txt"/>
@@ -35,6 +38,7 @@
 <!-- include Idris apps -->
 <project
     name="bare-metal-idris.git"
+    path="bare-metal-idris"
     revision="master"
     remote="mokshasoft"/>
 

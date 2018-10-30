@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright 2018, Mokshasoft AB (mokshasoft.com)
+
+     This software may be distributed and modified according to the terms of
+     the BSD 2-Clause license. Note that NO WARRANTY is provided.
+     See "LICENSE_BSD2.txt" for details.
+-->
+<manifest>
+
+<remote
+    name="mokshasoft"
+    fetch="https://github.com/mokshasoft/"/>
+
+<!-- include starterwarefree -->
+<project
+    name="starterwarefree.git"
+    revision="master"
+    remote="mokshasoft"/>
+
+<!-- include starterwarefree-idris-ffi -->
+<project
+    name="starterwarefree-idris-ffi.git"
+    revision="master"
+    remote="mokshasoft"/>
+
+<!-- include Idris RTS, using the one for seL4 -->
+<project
+    name="libsel4-idris-rts.git"
+    revision="master"
+    remote="mokshasoft">
+    <linkfile src="rts/seL4/CMakeLists.txt" dest="libsel4-idris-rts/CMakeLists.txt"/>
+</project>
+
+<!-- include Idris apps -->
+<project
+    name="bare-metal-idris.git"
+    revision="master"
+    remote="mokshasoft"/>
+
+</manifest>

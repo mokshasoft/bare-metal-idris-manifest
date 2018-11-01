@@ -40,6 +40,8 @@
     name="bare-metal-idris.git"
     path="bare-metal-idris"
     revision="master"
-    remote="mokshasoft"/>
+    remote="mokshasoft">
+    <linkfile src="tools/CMake/top-level.cmake" dest="CMakeLists.txt"/>
+</project>
 
 </manifest>

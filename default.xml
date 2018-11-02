@@ -42,6 +42,7 @@
     revision="master"
     remote="mokshasoft">
     <linkfile src="tools/CMake/top-level.cmake" dest="CMakeLists.txt"/>
+    <linkfile src="tools/CMake/Idris.cmake" dest="tools/CMake/Idris.cmake"/>
 </project>
 
 </manifest>

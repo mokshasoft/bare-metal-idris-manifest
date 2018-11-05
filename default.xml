@@ -26,13 +26,13 @@
     revision="master"
     remote="mokshasoft"/>
 
-<!-- include Idris RTS, using the one for seL4 -->
+<!-- include the bare-metal Idris RTS -->
 <project
     name="libsel4-idris-rts.git"
     path="libsel4-idris-rts"
     revision="master"
     remote="mokshasoft">
-    <linkfile src="rts/seL4/CMakeLists.txt" dest="libsel4-idris-rts/CMakeLists.txt"/>
+    <linkfile src="rts/bare-metal/CMakeLists.txt" dest="libsel4-idris-rts/CMakeLists.txt"/>
 </project>
 
 <!-- include Idris apps -->

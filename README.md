@@ -1,13 +1,13 @@
-# bare-metal-idris-manifest - Project to build bare-metal Idris applications on TI StarterWare
+# idris-starterwarefree-manifest - Project to build bare-metal Idris applications on TI StarterWare
 No code has been written yet. The below commands will not currently build any software.
 
 ## Get the Code!
 
 Run the following commands to get the code:
 ```
-mkdir idris-bare-metal
-cd idris-bare-metal
-repo init -u https://github.com/mokshasoft/bare-metal-idris-manifest.git
+mkdir idris-starterwarefree-manifest
+cd idris-starterwarefree-manifest
+repo init -u https://github.com/mokshasoft/idris-starterwarefree-manifest.git
 repo sync
 ```
 

@@ -21,24 +21,24 @@
 
 <!-- include starterwarefree-idris-ffi -->
 <project
-    name="starterwarefree-idris-ffi.git"
-    path="starterwarefree-idris-ffi"
+    name="idris-starterwarefree-ffi.git"
+    path="starterwarefree-ffi"
     revision="master"
     remote="mokshasoft"/>
 
 <!-- include the bare-metal Idris RTS -->
 <project
-    name="libsel4-idris-rts.git"
-    path="libsel4-idris-rts"
+    name="idris-rts.git"
+    path="idris-rts"
     revision="master"
     remote="mokshasoft">
-    <linkfile src="rts/bare-metal/CMakeLists.txt" dest="libsel4-idris-rts/CMakeLists.txt"/>
+    <linkfile src="rts/bare-metal/CMakeLists.txt" dest="idris-rts/CMakeLists.txt"/>
 </project>
 
 <!-- include Idris apps -->
 <project
-    name="bare-metal-idris.git"
-    path="bare-metal-idris"
+    name="idris-starterwarefree-apps.git"
+    path="apps"
     revision="master"
     remote="mokshasoft">
     <linkfile src="tools/CMake/top-level.cmake" dest="CMakeLists.txt"/>

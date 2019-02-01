@@ -19,5 +19,5 @@ Run the following commands to build and run it:
 mkdir build
 cd build
 cmake -G Ninja -DCMAKE_TOOLCHAIN_FILE=../starterwarefree/build/CMake/gcc.cmake ..
-ninja idris_gpio
+ninja led-blink
 ```
